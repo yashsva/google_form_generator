@@ -10,6 +10,7 @@
   "author": "Yashsva",
   "license": "ISC",
   "dependencies": {
+    "@googleapis/drive": "^3.0.0",
     "@googleapis/forms": "^1.1.0",
     "dotenv": "^16.0.1",
     "ejs": "^3.1.8",
