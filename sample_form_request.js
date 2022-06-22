@@ -1,7 +1,8 @@
 const sample_form={
+    email: "xyz@gmail.com",
     info: {
-        title: 'An automated form created in node.js by Yashsva',
-        documentTitle: 'Yashsva Form',
+        title: 'An automated form created in node.js',
+        documentTitle: 'Test Form',
     },
     form_body: {
         includeFormInResponse: true,
@@ -70,7 +71,7 @@ const sample_form={
                             question: {
                                 required: true,
                                 textQuestion: {
-                                    paragraph: true,
+                                    paragraph: false,
                                 },
                                 grading: {
                                     pointValue: 5,
