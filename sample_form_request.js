@@ -75,7 +75,13 @@ const sample_form={
                                 },
                                 grading: {
                                     pointValue: 5,
-
+                                    correctAnswers: {
+                                        answers: [
+                                            {
+                                                value: 'Narendra Modi'
+                                            }
+                                        ],
+                                    },
                                 }
                             }
                         }

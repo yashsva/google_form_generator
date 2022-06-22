@@ -73,7 +73,14 @@
                                     "paragraph": false
                                 },
                                 "grading": {
-                                    "pointValue": 5
+                                    "pointValue": 5,
+                                    "correctAnswers": {
+                                        "answers": [
+                                            {
+                                                "value": "Narendra Modi"
+                                            }
+                                        ]
+                                    }
                                 }
                             }
                         }
