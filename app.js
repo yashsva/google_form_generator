@@ -122,7 +122,7 @@ app.post('/generate_form', (req, res) => {
             info: req.body.info,
             form_body: req.body.form_body,
         }
-        return res.send({url:req.protocol + '://' + req.get('host')+'/form'});
+        return res.send({url:'https://' + req.get('host')+'/form'});
 
     } catch (error) {
         console.log(error);
